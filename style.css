@@ -60,12 +60,15 @@ h2 {
 #about {
   background-color: #35858b;
   font-size: 1.8rem;
-  color: #072227;
-  padding: 10px;
-  height: 300px;
+  color: #c2e0e0;
+  padding: 20px;
+  height: 500px;
+  display: flex;
 }
 #about div {
   width: 60%;
   margin: auto;
+  padding: 10px;
   text-align: justify;
+  line-height: 3.5rem;
 }
