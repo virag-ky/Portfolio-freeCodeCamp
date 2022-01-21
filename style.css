@@ -32,7 +32,6 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   gap: 100px;
-  margin: auto 50px auto 30px;
 }
 li {
   list-style: none;
@@ -112,6 +111,7 @@ h3 {
 .icons {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 50%;
 }
 #contact i {
@@ -201,5 +201,40 @@ footer {
   footer {
     font-size: 0.6rem;
     height: 40px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1900px) {
+  nav ul {
+    gap: 50px;
+  }
+  #projects {
+    grid-template-columns: 0.5rem 1fr 0.5rem;
+    padding: 25px 10px;
+  }
+  #projects-grid {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 2rem;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact {
+    height: 250px;
+    gap: 50px;
+  }
+  #contact h2 {
+    font-size: 2.5rem;
+  }
+  #contact i {
+    font-size: 1.8rem;
+  }
+  .icons {
+    width: 80%;
+    justify-content: space-around;
   }
 }
