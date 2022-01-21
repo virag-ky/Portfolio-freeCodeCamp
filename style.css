@@ -95,3 +95,35 @@ h3 {
   text-align: center;
   margin-top: 10px;
 }
+#contact {
+  height: 500px;
+  background-color: #072227;
+  color: #aefeff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#contact h2 {
+  font-size: 3.5rem;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+#contact i {
+  color: #aefeff;
+  font-size: 3rem;
+}
+#contact a {
+  text-decoration: none;
+}
+#contact i:hover {
+  color: #a9acac;
+}
+span {
+  color: #aefeff;
+  font-size: 1.4rem;
+}
