@@ -72,3 +72,26 @@ h2 {
   text-align: justify;
   line-height: 3.5rem;
 }
+#projects {
+  background-color: #b5b9b9;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  padding: 100px 30px;
+}
+#projects-grid {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 4rem;
+}
+img {
+  width: 350px;
+  height: 350px;
+}
+h3 {
+  color: #3e4b4e;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}
