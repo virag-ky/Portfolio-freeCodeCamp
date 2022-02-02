@@ -110,11 +110,12 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
 }
 #contact h2 {
   font-size: 3.2rem;
   font-weight: normal;
+  position: relative;
+  top: -15%;
 }
 .icons {
   display: flex;
@@ -160,14 +161,15 @@ footer {
     font-size: 1.2rem;
   }
   #about {
-    height: 200px;
+    height: 300px;
     font-size: 1rem;
     padding: 0;
   }
   #about div {
-    width: 90%;
+    width: 95%;
     line-height: 1.5rem;
     text-align: center;
+    padding: 5px;
   }
   #projects {
     grid-template-columns: 0.5rem 1fr 0.5rem;
@@ -193,7 +195,7 @@ footer {
     align-items: center;
   }
   #contact {
-    height: 200px;
+    height: 150px;
     gap: 30px;
   }
   #contact h2 {
