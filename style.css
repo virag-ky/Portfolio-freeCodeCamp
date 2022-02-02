@@ -217,6 +217,18 @@ footer {
   nav ul {
     gap: 50px;
   }
+  #about {
+    padding: 0;
+  }
+  #about div {
+    width: 95%;
+    text-align: center;
+    padding: 0;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
   #projects {
     grid-template-columns: 0.5rem 1fr 0.5rem;
     padding: 25px 10px;
