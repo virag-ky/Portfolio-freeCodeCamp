@@ -260,3 +260,70 @@ footer {
     justify-content: space-around;
   }
 }
+@media only screen and (max-width: 280px) {
+  nav a {
+    font-size: 0.8rem;
+  }
+  nav ul {
+    gap: 25px;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #welcome-section h2 {
+    font-size: 1.2rem;
+  }
+  #about {
+    height: 300px;
+    font-size: 0.8rem;
+    padding: 0;
+  }
+  #about div {
+    width: 95%;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 5px;
+  }
+  #projects {
+    grid-template-columns: 0.5rem 1fr 0.5rem;
+    padding: 25px 10px;
+  }
+  #projects-grid {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 2rem;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  h3 {
+    font-size: 0.7em;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact {
+    height: 120px;
+    gap: 30px;
+  }
+  #contact h2 {
+    font-size: 0.8rem;
+  }
+  #contact i,
+  span {
+    font-size: 0.8rem;
+  }
+  .icons {
+    width: 80%;
+  }
+  footer {
+    font-size: 0.6rem;
+    height: 40px;
+  }
+}
