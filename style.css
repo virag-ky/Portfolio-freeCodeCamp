@@ -88,10 +88,11 @@ h2 {
 img {
   width: 500px;
   height: 500px;
+  border-radius: 5px;
 }
 h3 {
   color: #3e4b4e;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
   margin-top: 10px;
 }
