@@ -11,20 +11,18 @@
 
 body {
   font-family: monospace;
-  padding: 0;
-  margin: 0;
 }
 header {
   display: flex;
   flex-direction: column;
-  background-color: #072227;
-  color: #aefeff;
+  background-color: #050505;
+  color: rgb(0, 255, 200);
   width: 100%;
   height: 100vh;
 }
 nav {
   position: fixed;
-  background-color: #494d4d;
+  background-color: #61706c;
   width: 100%;
   padding: 25px;
 }
@@ -37,7 +35,7 @@ li {
   list-style: none;
 }
 nav a {
-  color: #4fbdba;
+  color: rgb(0, 255, 200);
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -49,13 +47,14 @@ nav a:hover {
 }
 h1 {
   font-size: 3.5rem;
+  text-shadow: 0px 0px 20px rgb(0, 255, 200);
 }
 h2 {
   font-size: 2.8rem;
   text-align: center;
   font-weight: normal;
   margin-top: 20px;
-  color: #4fbdba;
+  color: rgb(0, 255, 200);
 }
 #about {
   background-color: #35858b;
