@@ -81,13 +81,13 @@ h2 {
 #projects-grid {
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 1.5rem;
   row-gap: 4rem;
 }
 img {
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
 }
 h3 {
   color: #3e4b4e;
