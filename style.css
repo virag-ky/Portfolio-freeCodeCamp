@@ -41,7 +41,7 @@ nav a {
   font-size: 1.5rem;
 }
 nav a:hover {
-  color: #f1f8f8;
+  text-shadow: 0px 0px 30px rgb(0, 255, 200);
 }
 #welcome-section div {
   margin: auto;
