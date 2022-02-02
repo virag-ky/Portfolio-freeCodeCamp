@@ -104,8 +104,8 @@ h3 {
 }
 #contact {
   height: 500px;
-  background-color: #072227;
-  color: #aefeff;
+  background-color: #1a1b1b;
+  color: rgb(0, 255, 200);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,7 +113,8 @@ h3 {
   gap: 100px;
 }
 #contact h2 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
+  font-weight: normal;
 }
 .icons {
   display: flex;
@@ -122,27 +123,27 @@ h3 {
   width: 50%;
 }
 #contact i {
-  color: #aefeff;
+  color: rgb(0, 255, 200);
   font-size: 3rem;
 }
 #contact a {
   text-decoration: none;
 }
 #contact i:hover {
-  color: #a9acac;
+  text-shadow: 0px 0px 20px rgb(0, 255, 200);
 }
 span {
-  color: #aefeff;
+  color: rgb(0, 255, 200);
   font-size: 1.4rem;
 }
 footer {
-  background-color: #494d4d;
+  background-color: #979999;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  color: #4fbdba;
+  color: #1a1b1b;
 }
 @media only screen and (max-width: 600px) {
   nav a {
